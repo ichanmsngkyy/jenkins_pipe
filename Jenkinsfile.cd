@@ -15,7 +15,7 @@ pipeline {
 
     parameters {
         string(name: 'BUILD_NUMBER', defaultValue: '',
-               description: 'Successful CI-React-App build number')
+               description: 'Successful CI-React -App build number')
         choice(name: 'ENVIRONMENT', choices: ['DEV', 'TEST', 'ACC', 'PROD'],
                description: 'Deployment environment')
     }
