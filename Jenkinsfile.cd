@@ -42,7 +42,7 @@ pipeline {
                     }
 
                     copyArtifacts(
-                        projectName: 'CI-React-App',
+                        projectName: 'CI-React -App',
                         selector: specific(ciBuild),
                         filter: env.ARCHIVE_NAME,
                         target: 'deploy'
